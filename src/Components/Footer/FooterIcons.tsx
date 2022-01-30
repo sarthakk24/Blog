@@ -1,6 +1,12 @@
-const FooterIcons = (props: any): JSX.Element => {
+interface type {
+  svg: string;
+  label: string;
+  href: string;
+}
+
+const FooterIcons = (props: type): JSX.Element => {
   return (
-    <div>
+    <div className="py-2">
       <a
         href={props.href}
         className="flex items-center text-white"

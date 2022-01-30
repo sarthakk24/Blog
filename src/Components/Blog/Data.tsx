@@ -15,7 +15,7 @@ const Data = (): JSX.Element => {
           alt="mainBackgroud"
         />
       </div>
-      <div className="text-xl py-1 w-[80%] bg-white flex justify-center items-center flex-col">
+      <div className="text-xl py-1 w-full md:w-[80%] bg-white flex justify-center items-center flex-col">
         <Headings heading="Getting Started With Typescript" />
         <div className="w-[80%]">
           <p>
@@ -35,7 +35,7 @@ const Data = (): JSX.Element => {
           <p>
             <img
               src={Subset}
-              className="h-[200px] inline float-right ml-5"
+              className="h-[280px] md:h-[200px] inline float-none md:float-right ml-5"
               alt="subset"
             />
             As each new version of JavaScript extends the previous one, we could

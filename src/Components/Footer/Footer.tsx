@@ -5,7 +5,7 @@ import Github from "../../Assets/Svg/github.svg";
 
 const Footer = (): JSX.Element => {
   return (
-    <div className="text-white h-[100px] w-full mt-10 bg-[#012a4a] flex justify-evenly items-center">
+    <div className="text-white min-h-[100px] w-full mt-10 bg-[#012a4a] flex justify-evenly items-center flex-col md:flex-row">
       <FooterIcons
         svg={Discord}
         label="Discord"

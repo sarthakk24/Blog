@@ -5,13 +5,13 @@ import NavbarIcon from "./NavbarIcon";
 
 const Navbar = (): JSX.Element => {
   return (
-    <div className="bg-[#012a4a] text-white w-full h-[70px] flex justify-evenly items-center">
+    <div className="bg-[#012a4a] text-white w-full h-[70px] flex justify-center md:justify-evenly items-center">
       <div>Make-A-Blog</div>
       <ul className="flex justify-center items-center">
         <li className="mx-4">
           <input
             type="text"
-            className="p-1 rounded-md w-[300px]"
+            className="p-1 rounded-md hidden md:block w-full"
             placeholder="search"
           ></input>
         </li>
